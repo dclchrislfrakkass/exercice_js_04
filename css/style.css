@@ -1,0 +1,31 @@
+html {
+    /* height: 100%; */
+ 
+}
+body {
+    position:absolute;
+    /* Centrer verticalement */
+    top: 50%;
+    margin-top: -100px;
+    /* Centrer horizontalement */
+    left: 50%;
+    margin-left: -100px;
+}
+
+#carre {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 2s;
+      
+}
+
+footer {
+    position: fixed;
+    left: 40%;
+    bottom: 0;
+    margin-bottom: 2%;
+}
